@@ -23,10 +23,18 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 7. Require the following npm packages inside of the server.js file:
    * express
 
-##Built with MySQL, Node, Express, Handlebars and ORM
+# Built with MySQL, Node, Express, Handlebars and ORM
 
 * Allow you to input your new favorite burger!
 
+<<<<<<< HEAD
 * Click the devour it and it will display in devoured section.
 
 * The app will store every burger in a database.
+=======
+* You can click the devour it and it will display in devoured section.
+
+# Screenshot for referrence
+
+![](https://github.com/maria341/Burger/blob/master/public/assets/images/screenshot.png)
+>>>>>>> 12ffc5120cccf66ae803394881dda76f6527c7fc
