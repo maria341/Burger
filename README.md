@@ -28,3 +28,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 * Allow you to input your new favorite burger!
 
 * You can click the devour it and it will display in devoured section.
+
+#Screenshot for referrence
+
+![](https://github.com/maria341/Burger/blob/master/public/assets/images/screenshot.png)
