@@ -1,13 +1,14 @@
 <div class="container">
   <div class="jumbotron">
+    <img src="/assets/images/logo.jpg" height="120" width="200">
     <h1>Eat The Burger!</h1>
   </div>
 
   <div class="row">
     <div class="col-lg-6">
       <div class="panel panel-default">
-        <div class="panel-heading" id="left"><strong>YOUR BURGER</strong></div>
-        <div class="panel-body">
+        <div class="panel-heading" id="left" style="background-color: #fca903"><strong>YOUR BURGER</strong></div>
+        <div class="panel-body" style="background-color:#a6d980">
           <ul>
             {{#each burgers}}
             {{#unless devoured}}
@@ -21,8 +22,8 @@
 
     <div class="col-lg-6">
       <div class="panel panel-default">
-        <div class="panel-heading" id="right"><strong>DEVOUR IT</strong></div>
-        <div class="panel-body">
+        <div class="panel-heading" id="right" style="background-color: #fca903"><strong>DEVOUR IT</strong></div>
+        <div class="panel-body" style="background-color: #a6d980">
           <ul>
             {{#each burgers}}
             {{#if devoured}}
@@ -41,16 +42,10 @@
 
         <div class="form-group">
           <label for="burg">Burger Name:</label>
-          <input type="text" id="burg" name="name">
+          <input type="text" id="burg" name="devoured">
         </div>
 
-        <div class="form-group">
-          <label for="devoured">Choose your favorite burger?</label><br>
-          <input type="radio" name="devoured" value="0"> Your Burger
-        </div>
-
-
-        <button type="submit">Add Burger</button>
+      <button type="submit">Add Burger</button>
       </form>
     </div>
   </div>
