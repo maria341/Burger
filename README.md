@@ -23,42 +23,8 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 7. Require the following npm packages inside of the server.js file:
    * express
 
-#### Directory structure
+##Built with MySQL, Node, Express, Handlebars and ORM
 
-All the recommended files and directories from the steps above should look like the following structure:
+* Allow you to input your new favorite burger!
 
-```
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-```
+* You can click the devour it and it will display in devoured section.
