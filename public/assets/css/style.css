@@ -1,12 +1,12 @@
 body {
-    background-image: url("../images/background.webp");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
 .jumbotron {
     background-color: #36bf71;
-    color: #f5425a;
+    color: orange;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
 }  
@@ -22,13 +22,13 @@ p {
 }
 
 img {
-    float: right;
-    margin-right: 30%;
-    margin-top: 0px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 button {
-    background-color: #f5425a;
+    background-color: orange;
     font-style: bold;
 }
 
