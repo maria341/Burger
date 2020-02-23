@@ -29,6 +29,6 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 * Click the devour it and it will display in devoured section.
 
-* The app will store every burger in a database.
+* The app will store every burger you input into database.
 
 ![](https://github.com/maria341/Burger/blob/master/public/assets/images/picture.png)
