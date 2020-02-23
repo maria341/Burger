@@ -32,3 +32,11 @@ button {
     font-style: bold;
 }
 
+.panel-heading {
+    border-top: 0px solid orange;
+}
+
+.panel {
+    border-color: orange;
+}
+
